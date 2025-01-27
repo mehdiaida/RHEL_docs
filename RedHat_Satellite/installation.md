@@ -118,5 +118,6 @@ scp ~/manifest_file.zip root@satellite.example.com:~/.
 hammer subscription upload \
 --file ~/manifest_file.zip \
 --organization "organization_name"
+```
 
 This guide walks through registering the system, attaching the subscription, configuring repositories, and installing Red Hat Satellite.
