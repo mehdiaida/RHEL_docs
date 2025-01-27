@@ -1,5 +1,7 @@
 # Installation Guide for Red Hat Satellite
 
+Red Hat Satellite allows for the centralized management of Linux servers, using automation to help users and system administrators provision, configure and update their systems more quickly and easily.
+
 ## INSTALLATION
 
 ### Register the System
