@@ -120,4 +120,15 @@ hammer subscription upload \
 --organization "organization_name"
 ```
 
+Satellite Server uses the Subscription Manifest to track entitlements and pools. Without it, Satellite won't have the necessary information about the subscriptions your organization has purchased.
+
+The manifest provides the list of products, entitlements, and subscription details (e.g., pool IDs, expiry dates).
+
+Red Hat Satellite acts as a local proxy for the Red Hat Customer Portal. Without the manifest, systems cannot consume subscriptions through Satellite.
+
+If your organization purchases additional subscriptions, renews them, or changes subscription types, you need to re-import an updated manifest.
+
+If the current subscription manifest has expired, you need to download and import an updated version to maintain subscription compliance.
+
+
 This guide walks through registering the system, attaching the subscription, configuring repositories, and installing Red Hat Satellite.
