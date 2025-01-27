@@ -112,8 +112,8 @@ satellite-installer --scenario satellite \
 
 ---
 ### Manifest
-```bash
 You must have a Subscription Manifest file exported from the Customer Portal
+```bash
 scp ~/manifest_file.zip root@satellite.example.com:~/.
 hammer subscription upload \
 --file ~/manifest_file.zip \
